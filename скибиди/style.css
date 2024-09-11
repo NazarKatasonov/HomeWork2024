@@ -1,0 +1,48 @@
+.pink-text{
+    color: pink;
+}
+.greycol{
+    color: gray;
+}
+.red-color{
+    color: red;
+}
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.pn:hover{
+    color: blue;
+}
+.vt:hover{
+    color: aqua;
+}
+.sr:hover{
+    color: brown;
+}
+.cht:hover{
+    color: chocolate;
+}
+.pt:hover{
+    color: saddlebrown;
+}
+.pn{
+    color: blueviolet;
+}
+.vt{
+    color: blue;
+}
+.pt{
+    color: saddlebrown;
+}
+.sr{
+    color: seagreen;
+}
+.cht{
+    color: chartreuse;
+}
+.pt{
+    color: paleturquoise;
+}
