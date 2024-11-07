@@ -1,48 +1,47 @@
-.pink-text{
-    color: pink;
+.holder {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 600px; 
+    height: 300px; 
+    border-radius: 15px;
+    overflow: hidden;
+    border: 5px solid black; 
 }
-.greycol{
-    color: gray;
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
-.red-color{
-    color: red;
+.item:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #ff7f50;
 }
-.green{
-    color: green;
+
+.item:nth-child(2) {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    background-color: #ffd700;
 }
-.yellow{
-    color: yellow;
+
+.item:nth-child(3) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: #9370db;
 }
-.pn:hover{
-    color: blue;
+
+.item:nth-child(4) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #87cefa;
 }
-.vt:hover{
-    color: aqua;
-}
-.sr:hover{
-    color: brown;
-}
-.cht:hover{
-    color: chocolate;
-}
-.pt:hover{
-    color: saddlebrown;
-}
-.pn{
-    color: blueviolet;
-}
-.vt{
-    color: blue;
-}
-.pt{
-    color: saddlebrown;
-}
-.sr{
-    color: seagreen;
-}
-.cht{
-    color: chartreuse;
-}
-.pt{
-    color: paleturquoise;
+
+.item:nth-child(5) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-color: #3cb371;
 }
